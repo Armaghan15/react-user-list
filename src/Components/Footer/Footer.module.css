@@ -1,0 +1,18 @@
+/* #11121A
+#6d37da
+#1C1C24 */
+
+
+footer {
+  background-color: #11121A;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100px;
+}
+
+
+footer h4 a {
+  text-decoration: none;
+  color: #6d37da;
+}

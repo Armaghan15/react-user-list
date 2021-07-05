@@ -1,0 +1,48 @@
+.NavbarContainer {
+  background-color: #11121A;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.NavbarContainer h3:hover {
+  cursor: pointer;
+}
+
+.NavbarContainer nav ul {
+  display: flex;
+  align-items: center;
+}
+
+.NavbarContainer nav ul li {
+  list-style: none;
+  margin-left: 25px;
+}
+
+
+
+.NavbarContainer nav ul li a {
+  text-decoration: none;
+  color: white;
+  transition: .4s ease-in-out;
+}
+
+
+.NavbarContainer nav ul li a:hover {
+  color: #6d37da;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+  .NavbarContainer nav ul li a {
+    font-size: 13px;
+  }
+
+
+  .NavbarContainer h3 {
+    font-size: 18px;
+  }
+}

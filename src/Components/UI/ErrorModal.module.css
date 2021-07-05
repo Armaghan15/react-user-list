@@ -1,0 +1,44 @@
+.BackDrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+
+
+
+.ErrorModal {
+  position: fixed;
+  background-color: #11121A;
+  top: 30vh;
+  width: 50%;
+  height: 200px;
+  left: 10%;
+  width: 80%;
+  overflow: hidden;
+  z-index: 100;
+}
+
+
+.button {
+  background-color: #6d37da;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 15px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: .3s ease-in-out;
+  width: 80px;
+}
+
+
+.button:hover {
+  background-color: #422085;
+  cursor: pointer;
+}

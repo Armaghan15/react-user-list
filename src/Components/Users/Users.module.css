@@ -1,0 +1,38 @@
+.users {
+  background-color: #11121A;
+  max-width: 720px;
+  padding: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+
+.UsersGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+}
+
+
+
+
+@media only screen and (max-width: 800px) {
+  
+  .UsersGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .users {
+    border-radius: 0px;
+  }
+}
+
+
+@media only screen and (max-width: 500px) {
+  
+  .UsersGrid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

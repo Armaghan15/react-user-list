@@ -53,10 +53,6 @@ const App = () => {
     setUsers((prevUsers) => {
       return [submitedData, ...prevUsers];
     });
-
-    console.log("====================================");
-    console.log(typeof submitedData.age);
-    console.log("====================================");
   };
 
   return (
